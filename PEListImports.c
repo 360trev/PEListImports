@@ -1,13 +1,8 @@
 
-
     /* list_imports -- list imports of PE files in command line
      *
      * usage:
-     *        list_imports [-d] [-q] file1 file2 ...
-     *
-     * sorry for the lot of casting - it's ugly but it helps :-)
-     * (it's necessary because you have to calculate in byte offsets but C pointers
-     * increment in pointed-to sizes, and you must change between RVAs and addresses)
+     *        PEListImports <pe_executable_name>...
      */
 
 
